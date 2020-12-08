@@ -1,0 +1,6 @@
+D:\Code\Investigation-and-Reporting\Exam\UFO-Exam\SortingAlgorithms\bin\Debug\SortingAlgorithms.exe
+D:\Code\Investigation-and-Reporting\Exam\UFO-Exam\SortingAlgorithms\bin\Debug\SortingAlgorithms.pdb
+D:\Code\Investigation-and-Reporting\Exam\UFO-Exam\SortingAlgorithms\obj\Debug\SortingAlgorithms.csprojAssemblyReference.cache
+D:\Code\Investigation-and-Reporting\Exam\UFO-Exam\SortingAlgorithms\obj\Debug\SortingAlgorithms.csproj.CoreCompileInputs.cache
+D:\Code\Investigation-and-Reporting\Exam\UFO-Exam\SortingAlgorithms\obj\Debug\SortingAlgorithms.exe
+D:\Code\Investigation-and-Reporting\Exam\UFO-Exam\SortingAlgorithms\obj\Debug\SortingAlgorithms.pdb
