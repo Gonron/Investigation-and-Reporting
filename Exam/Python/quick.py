@@ -1,5 +1,4 @@
 def sort(arr):
-    print('sort_method')
     n = len(arr)
     _sort(arr, 0, n-1)
     
