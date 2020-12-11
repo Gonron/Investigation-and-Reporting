@@ -1,0 +1,7 @@
+\section*{Discussion and Future Work}
+
+From this experiment I've figured out how much faster the C language is, compared to other. Even though PyPy got relatively close to matching the execution times of C\#, it has some drawbacks. Python accelerates at scientific computing, data science and machine learning, which most of the packages needed for that, isn't supported by PyPy.
+
+\noindent As mentioned in section \ref{sec:results} I mentioned, that I would've liked to test the execution time of Cython, which is a Python-to-C compiler\cite{stack_py_slow}. However I was unable to achieve this because of the time constraint. 
+
+\noindent In addition it would have been interesting to test other implementations of a quick-sort algorithm. There's different ways you can choose your pivot, one that interests me is Hoares' partition scheme, which has two pivots that start at both ends and move towards each other until they notice an inversion.

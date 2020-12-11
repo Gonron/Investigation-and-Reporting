@@ -1,0 +1,60 @@
+\subsection{Results}
+\label{sec:results}
+
+Apparently the original file was too large for python to handle. Therefore I decided to make it into three separate files; 
+
+\begin{itemize}
+  \item[-] Large: 218.335 words.
+  \item[-] Medium: 82.952 words
+  \item[-] Small: 41.807 words
+\end{itemize}
+
+\noindent You will notice that, there's ? in the table, this is due to the program being unable to run the method.
+
+\begin{table}[H]
+\centering
+\small
+    \begin{tabular}{|c|c|c|c|c|c|c|c|} 
+    \hline
+        Language & File & Min & Max & Median & Mean & Average & Std.dev.\\
+    \hline
+        \multirow{3}{4em}{C\#} & L & 2.4620 & 2.8295 & 2.4783 & 2.6413 & 2.4998 & 0.0529 \\ 
+        & M & 0.3709 & 0.3917 & 0.3748 & 0.3813 & 0.3755 & 0.0032 \\ 
+        & S & 0.0967 & 0.1052 & 0.0977 & 0.1010 & 0.0980 & 0.0011 \\ 
+    \hline
+        \multirow{3}{4em}{Python} & L & ? & ? & ? & ? & ? & ? \\ 
+        & M & ? & ? & ? & ? & ? & ? \\ 
+        & S & 1.5232 & 1.6001 & 1.5341 & 1.5616 & 1.5473 & 0.0231 \\
+    \hline
+\end{tabular}
+\vspace*{-0.3cm}
+\caption{\label{tab:table-comparison}Comparisons between C\# and Python Quick-Sort.}
+\end{table}
+
+\noindent Looking at the average execution time, we can conclude that C\# is roughly 14x faster then Python. This is not surprising since native Python doesn't have a JIT\cite{tp_py_slow}. Therefore I've decide to run the code using PyPy, which is an alternative implementation for CPython. The reason that it would execute the code faster, is that it's a JIT compiler.
+
+\begin{table}[H]
+\centering
+\small
+    \begin{tabular}{|c|c|c|c|c|c|c|c|} 
+    \hline
+        Language & File & Min & Max & Median & Mean & Average & Std.dev.\\
+    \hline
+        \multirow{3}{4em}{C\#} & L & 2.4620 & 2.8295 & 2.4783 & 2.6413 & 2.4998 & 0.0529 \\ 
+        & M & 0.3709 & 0.3917 & 0.3748 & 0.3813 & 0.3755 & 0.0032 \\ 
+        & S & 0.0967 & 0.1052 & 0.0977 & 0.1010 & 0.0980 & 0.0011 \\ 
+    \hline
+        \multirow{3}{4em}{Python} & L & ? & ? & ? & ? & ? & ? \\ 
+        & M & ? & ? & ? & ? & ? & ? \\ 
+        & S & 1.5232 & 1.6001 & 1.5341 & 1.5616 & 1.5473 & 0.0231 \\
+    \hline
+        \multirow{3}{4em}{PyPy} & L & ? & ? & ? & ? & ? & ? \\ 
+        & M & 0.5133 & 0.5477 & 0.5212 & 0.5305 & 0.5212 &  0.0038 \\ 
+        & S & 0.1254 & 0.2214 & 0.1274 & 0.1734 & 0.1290 & 0.0069 \\ 
+    \hline
+\end{tabular}
+\vspace*{-0.3cm}
+\caption{\label{tab:table-comparison_m}Comparisons between C\#, Python and PyPy Quick-Sort.}
+\end{table}
+
+\noindent You'll notice that PyPy is significantly faster then native Python, 11x faster to be specific. However C\# is still 31\% faster then PyPy. That being said PyPy still had issues handling the larger file. It could be interesting to try and rewrite the method in Cython, however I've never had any practice with that before.

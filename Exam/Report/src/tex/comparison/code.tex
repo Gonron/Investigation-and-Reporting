@@ -1,0 +1,16 @@
+\subsection{Code}\label{comp_code}
+
+Here you can see my implementation for the quick sort algorithm in both C\# and Python. Note that if you want to access the runner code and text processor, you'll have to find it in the gitrepo.
+
+\begin{listing}[H]
+    \inputminted{python}{src/code/quick_sort.py}
+    \caption{\label{snip:python-quicksort}Code snippet for Python Quick-Sort.}
+\end{listing}
+
+
+\noindent Important note, when you run this you'll most likely need to increase Pythons standard recursion limit. You can achieve this by importing sys and adding the following line of code \code{sys.setrecursionlimit(<limit>)}. I suggest setting the limit to 5.000 
+
+\begin{listing}[H]
+    \inputminted{c}{src/code/quick_sort.cs}
+    \caption{\label{snip:csharp-quicksort}Code snippet for C\# Quick-Sort.}
+\end{listing}

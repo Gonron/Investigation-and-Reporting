@@ -23,16 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9b2088f-9529-407e-a561-ae73a59d1862" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Python/SomeText.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/program.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/program.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/quick.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/quick.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UFO-Exam/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UFO-Exam/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UFO-Exam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UFO-Exam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SortingAlgorithms/Data/SomeText.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SortingAlgorithms/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SortingAlgorithms/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SortingAlgorithms/bin/Debug/SortingAlgorithms.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SortingAlgorithms/bin/Debug/SortingAlgorithms.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SortingAlgorithms/bin/Debug/SortingAlgorithms.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SortingAlgorithms/bin/Debug/SortingAlgorithms.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SortingAlgorithms/obj/Debug/SortingAlgorithms.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SortingAlgorithms/obj/Debug/SortingAlgorithms.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SortingAlgorithms/obj/Debug/SortingAlgorithms.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SortingAlgorithms/obj/Debug/SortingAlgorithms.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +92,8 @@
       <workItem from="1607585560695" duration="3304000" />
       <workItem from="1607682803533" duration="840000" />
       <workItem from="1607683673154" duration="971000" />
+      <workItem from="1607696027462" duration="13000" />
+      <workItem from="1607696067021" duration="74000" />
     </task>
     <servers />
   </component>
