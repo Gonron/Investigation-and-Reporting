@@ -11,7 +11,7 @@ iterations = 250
 times = []
 
 for i in range(0, iterations):
-    text = read_file('Data/SomeTextMedium.txt')
+    text = read_file('Data/SomeTextSmall.txt')
     words = sanitize_string(text)
 
     start = time.time()
@@ -22,7 +22,7 @@ for i in range(0, iterations):
 
 
 
-with open('../Data/pypy_medium.txt', 'a') as file:
+with open('../Data/pypy_small_1.txt', 'a') as file:
     for x in range(len(times)):
         rec = str(times[x])
         file.write(f'{rec}\n')
